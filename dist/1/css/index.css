@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: end;
+    background-color: #ededed;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 40px 20px;
+}
+a:hover{
+    background-color: rgb(109,38,34);
+    color: #fff;
+}
