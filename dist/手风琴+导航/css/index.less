@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 880px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    div{
+        width: 220px;
+        height: 300px;
+        padding: 0 10px;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        p{
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            &:last-child{
+                text-align: start;
+                font-size: 16px;
+                font-weight: 10;
+            }
+        }
+        &:hover{
+            width: 360px;
+        }
+    }
+    .box1{
+        background-color: skyblue;
+    }
+    .box2{
+        background-color: pink;
+    }
+    .box3{
+        background-color: purple;
+    }
+    .box4{
+        background-color: burlywood;
+    }
+}
