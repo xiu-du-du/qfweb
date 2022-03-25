@@ -1,0 +1,89 @@
+.nav .menu li {
+  background-color: #fff;
+}
+.nav .menu li:nth-child(4) {
+  background-color: #f75a53;
+  border-radius: 10% 10% 0 0;
+}
+.nav .menu li:nth-child(4) a {
+  color: #fff;
+}
+.nav .menu li:nth-child(1) {
+  background-color: #fff;
+}
+.nav .menu li:nth-child(1) a {
+  color: #000;
+}
+.nav .menu li:nth-child(2) {
+  background-color: #fff;
+}
+.nav .menu li:nth-child(2) a {
+  color: #000;
+}
+.nav .menu li:hover {
+  background-color: #f75a53;
+  border-radius: 10% 10% 0 0;
+}
+.nav .menu li:hover a {
+  color: #fff;
+}
+.about {
+  background-color: #E35C4F;
+  overflow: hidden;
+}
+.about .warp {
+  width: 1520px;
+  margin: 50px auto;
+}
+.about .warp p {
+  color: #fff;
+}
+.about .warp p:first-child {
+  font-size: 22px;
+}
+.about .warp p:first-child span {
+  font-size: 18px;
+  color: #EEA09B;
+}
+.about .warp p:first-child span::before {
+  content: "|";
+  margin: 0 10px;
+  color: #EEA09B;
+}
+.about .warp p:last-child {
+  font-size: 14px;
+  color: #EEA09B;
+}
+.about .warp p:last-child span {
+  color: #FFF;
+}
+.topBar {
+  background-color: #F7F6F6;
+}
+.topBar .warp {
+  width: 1520px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+.topBar .warp li {
+  height: 40px;
+  line-height: 40px;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  color: #67676D;
+}
+.office {
+  width: 1520px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.office img {
+  width: 420px;
+  margin-top: 50px;
+  vertical-align: bottom;
+}

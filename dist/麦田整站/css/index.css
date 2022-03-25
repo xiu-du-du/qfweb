@@ -38,10 +38,19 @@
   margin-top: 44px;
   cursor: pointer;
 }
+.nav .menu li:nth-child(1) {
+  background-color: #f75a53;
+  border-radius: 10% 10% 0 0;
+}
+.nav .menu li:nth-child(1) a {
+  color: #fff;
+}
 .nav .menu li:hover {
   background-color: #f75a53;
-  color: #fff;
   border-radius: 10% 10% 0 0;
+}
+.nav .menu li:hover a {
+  color: #fff;
 }
 .banner img {
   vertical-align: middle;
