@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.box{
+    position: relative;
+    float: left;
+    &:not(:first-child){
+        margin-left: 20px;
+    }
+    h3{
+        width: 220px;
+        height: 220px;
+        background-color: #000;
+        text-align: center;
+        line-height: 220px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 16px;
+        opacity: .7;
+        color: #fff;
+        display: none;
+    }
+    &:hover h3{
+        display: block;
+    }
+}
+
