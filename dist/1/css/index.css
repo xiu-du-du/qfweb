@@ -21,3 +21,9 @@ a:hover{
     background-color: rgb(109,38,34);
     color: #fff;
 }
+div{
+    width: 10px;
+    margin: 50px auto;
+    border: 10px solid transparent;
+    border-top: 10px solid #f75a53;
+}
